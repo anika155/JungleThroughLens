@@ -1,0 +1,31 @@
+body {
+    background-image: url(JungleTheme.jpg);
+    background-size: 95%;
+    background-position: bottom;
+    width: 98%;
+    height: 97vh;
+    z-index: -1;
+}
+.torch{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(168, 150, 150);
+    background-color: rgba(0,0,0,0);
+    box-shadow: 0 0 10px 10px white 
+    ,0 0 5010px 5000px black;
+    position: absolute;
+    transition-duration: 0.05s;
+    z-index: -1;
+
+
+
+}
+.switch{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 10;
+    background-color: yellow;
+    box-shadow: 0 0 20px 5px yellow;
+}
